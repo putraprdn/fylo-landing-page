@@ -1,0 +1,89 @@
+:root {
+	/* ### Primary */
+	--Very-Dark-Blue: hsl(243, 87%, 12%);
+	--Desaturated-Blue: hsl(238, 22%, 44%);
+
+	/* ### Accent */
+	--Bright-Blue: hsl(224, 93%, 58%);
+	--Moderate-Cyan: hsl(170, 45%, 43%);
+
+	/* ### Neutral */
+	--Light-Grayish-Blue: hsl(240, 75%, 98%);
+	--Light-Gray: hsl(0, 0%, 75%);
+
+	/* ### Headings, Call-to-actions, Header Navigation */
+	--font-head: "Open Sans", sans-serif; /* 400 & 700 */
+
+	/* ### Body */
+	--font-body: "Raleway", sans-serif;
+}
+
+/* 
+---------------- Reset CSS */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+	margin: 0;
+}
+img,
+picture {
+	max-width: 100%;
+	display: block;
+}
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+
+body {
+    min-height: 100vh;
+    color: var(--Very-Dark-Blue);
+    font-family: var(--font-body);
+}
+.container {
+    padding: 4rem 5rem;
+}
+
+
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+.nav__logo {
+    flex-basis: 13.5%;
+    width: 5rem;
+}
+.nav__link-group {
+    flex-basis: 100%;
+}
+.nav__list {
+    color: var(--Very-Dark-Blue);
+    display: flex;
+    justify-content: flex-end;
+    gap: 3rem;
+}
+.nav__link {
+    display: flex;
+    list-style: none;
+}
+.nav__link-items {
+    text-decoration: none;
+    font-size: 1.05rem;
+}
+
