@@ -59,13 +59,15 @@ a {
 	text-decoration: none;
 }
 .container {
-	padding: 4rem 5rem 0;
+	padding-left: 5rem;
+	padding-right: 5rem;
 }
 
 /* 
 ---------------- Nav  */
 .nav {
 	display: flex;
+	margin-top: 4rem;
 	align-items: center;
 	font-family: var(--font-head);
 }
@@ -94,7 +96,7 @@ a {
 ------------------- Main  */
 .main {
 	display: flex;
-	margin-top: 2rem;
+	margin-top: 5rem;
 	gap: 2rem;
 }
 .main__content {
@@ -103,10 +105,12 @@ a {
 	justify-content: center;
 	flex-basis: 50%;
 }
-.main__title {
-	font-size: 2.5rem;
+.title {
 	font-family: var(--font-head);
 	font-weight: 700;
+}
+.main__title {
+	font-size: 2.4rem;
 	margin-bottom: 1rem;
 }
 .main__description {
@@ -132,7 +136,7 @@ a {
 	color: var(--Light-Gray);
 }
 .main__image-container {
-    width: 100%;
+	width: 100%;
 	flex-basis: 49%;
 }
 
