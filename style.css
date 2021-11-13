@@ -313,6 +313,9 @@ a {
 .footer__link:not(:first-child) {
 	margin-top: 1rem;
 }
+.footer__link {
+	color: white;
+}
 .footer__social-group {
 	display: flex;
 	justify-content: center;
@@ -325,3 +328,15 @@ a {
 		brightness(107%) contrast(102%);
 }
 
+/* 
+--------------------- Active State  */
+.button--active:hover {
+	filter: brightness(135%);
+}
+.link--active:hover {
+	color: var(--Desaturated-Blue);
+}
+.social--active:hover {
+	filter: invert(34%) sepia(10%) saturate(1816%) hue-rotate(200deg)
+		brightness(98%) contrast(89%);
+}
