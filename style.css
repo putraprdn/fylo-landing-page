@@ -340,3 +340,108 @@ a {
 	filter: invert(34%) sepia(10%) saturate(1816%) hue-rotate(200deg)
 		brightness(98%) contrast(89%);
 }
+
+@media screen and (max-width: 420px) {
+	html {
+		font-size: 12px;
+	}
+
+	.nav {
+		margin-top: 2rem;
+	}
+	.container {
+		padding-left: 2.5rem;
+		padding-right: 2.5rem;
+	}
+	.nav__logo {
+		width: 8rem;
+	}
+
+	.main {
+		flex-direction: column-reverse;
+		text-align: center;
+	}
+	.main__form {
+		flex-direction: column;
+		margin-top: 1.5rem;
+	}
+	.main__input-email {
+		width: 100%;
+	}
+	.main__button {
+		font-size: 1.2rem;
+	}
+	.main__button,
+	.main__input-email {
+		height: 3.5rem;
+	}
+
+	.introduction {
+		margin-top: 6rem;
+		flex-direction: column-reverse;
+	}
+	.introduction__content {
+		justify-content: center;
+	}
+	.introduction__title {
+		font-size: 1.7rem;
+		text-align: center;
+		margin-top: 3rem;
+	}
+	.introduction__description {
+		padding-right: 0;
+		font-size: 1.5rem;
+		color: var(--Desaturated-Blue);
+	}
+	.introduction__link {
+		font-size: 1.2rem;
+		margin: 2rem auto;
+	}
+	.introduction__card {
+		width: 80%;
+		margin: 4rem auto;
+	}
+
+	.cta {
+		padding: 3rem 3rem;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+		gap: 1rem;
+	}
+	.cta__description {
+		padding-right: 0;
+		font-size: 1.2rem;
+	}
+	.cta__input-group {
+		justify-content: center;
+		align-items: center;
+	}
+	.cta__form, .cta__button {
+		width: 80%;
+	}
+
+	.footer {
+		font-size: 1.2rem;
+		padding: 5rem 5rem 5rem;
+	}
+	.footer__container {
+		flex-direction: column;
+		gap: 2rem;
+	}
+	.footer__group {
+		margin-top: 2rem;
+	}
+	.footer__link {
+		width: fit-content;
+	}
+	.footer__social-group {
+		gap: 1.5rem;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	html {
+		font-size: 10px;
+	}
+}
